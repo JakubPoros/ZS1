@@ -1,0 +1,30 @@
+body {
+	height: 400px;
+	width: 1000px;
+	background-color: rgb(88, 199, 105);
+}
+
+#banner {
+	height: 70%;
+	width: 1000px;
+	background-color: #e40f0f
+}
+#menu {
+	background-color: green;
+	height: 70%;
+	width: 33%;
+	float: left
+}
+#tresc {
+	background-color: blue;
+	height: 70%;
+	width: 33%;
+	float:inherit;
+}
+
+#linki {
+	height: 70%;
+	width: 33%;
+	background-color: #9e6214;
+	float: right;
+}
