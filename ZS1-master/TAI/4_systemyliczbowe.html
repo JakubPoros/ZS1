@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Systemy liczbowe</title>
+</head>
+<body>
+<h3>Systemy liczbowe</h3>
+    <div id="wynik"></div>
+    <div id="wynik1"></div>
+    <script>
+        /*
+            0 - oktalna (zdeprecjonowana)
+            0o - oktalna
+            0x - heksydecymalna
+        */
+        var elWynik = document.getElementById('wynik');
+        var elWynik1 = document.getElementById('wynik1');
+        
+        //document.write('<h3>Systemy liczbowe</h3>');
+        var dziesietna = 45;
+        var oktalna = 0o45;
+        var hex = 0xF;
+        document.write('(F)<sub>16</sub> = (' + hex + ')<sub>10</sub>');
+        console.log(typeof(hex));
+        
+        elWynik.style.color = 'red';
+        elWynik.innerHTML = '(45)<sub>8</sub> = (' + oktalna + ')<sub>10</sub>';
+        
+/*Zad.1
+        Użytkownik z klawiatury podaje liczbę w systemie szesnastkowym, wyświetl na ekranie ile bedzie wynosiła w systemie dzisiętnym
+        */
+        
+        var szesnastkowa = prompt('Podaj liczbę w systemie szesnastkowym');
+        szesnastkowa1 = '0x' + szesnastkowa;
+        szesnastkowa1 = Number(szesnastkowa1);
+        console.log(typeof(szesnastkowa1));
+        elWynik1.innerHTML = szesnastkowa1;
+        elWynik.innerHTML = '(' + szesnastkowa + ')<sub>8</sub> = (' + szesnastkowa1 + ')<sub>10</sub>';
+        elWynik1.style.color = 'green';
+        
+        
+/*Napisz program zmieniający system oktalny na decymalny*/
+        
+        
+        
+        
+        
+        
+    </script>
+</body>
+</html>

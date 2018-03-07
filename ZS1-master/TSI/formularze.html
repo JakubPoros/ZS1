@@ -21,7 +21,7 @@
            <legend>Dane:</legend>
             <input type="text" name="imie" size="20" maxlength="5" autofocus placeholder="Janusz" id="imie"> Imię<br><br>
             
-            <input type="text" name="nazwisko" size="20" maxlength="5" autofocus placeholder="Kowalski" id="nazwisko"> Imię<br><br>
+            <input type="text" name="nazwisko" size="20" maxlength="5" autofocus placeholder="Kowalski" id="nazwisko"> Nazwisko<br><br>
 
             <input type="text" name="szkoła" maxlength="5" autofocus placeholder="ZS1" size="1" readonly id="szkola"> Szkoła<br><br>
 
@@ -63,13 +63,33 @@
     </form>
     <hr>
     <form>
-        <input type="color" name="color">
+        <input type="color" name="color"><br><br>
+        <input type="date" id="data" min="1900-01-01" max="2018-03-07" value="2000-02-09"><br>
+        <input type="datetime-local"><br>
+        Email <input type="email"><br>
+        Imie <input type="text" pattern="[a-z]{2,20}"><br><br>
+        Dodaj plik <input type="file"><br><br>
+        Dodaj zdjęcie <input type="image" src="Img//star.png"><br><br>
+        Miesiąc <input type="month"><br>
+        Suwak <input type="range" min="0" max="5.3" step="any"><br>
+        Suwak <input type="range" min="0" max="5.3" step="0.1"><br>
+        Suwak <input type="range" min="0" max="5.3" step="1"><br>
         <input type="submit" name="przycisk5">
-        
+    </form>
+    <hr>
+    <form>
+        <input type="search" placeholder="Wyszukaj stronę">
+        <input type="submit" value="szukaj"><br><br>
+        <input type="tel" placeholder="Numer telefonu">
+        <input type="submit" value="szukaj"><br><br>
+        <input type="time">
+        <input type="submit" value="szukaj"><br><br>
+        <input type="week">
+        <input type="submit" value="szukaj"><br><br>
+        URL <input type="url" placeholder="Np. http://wp.pl" size="30" minlenght="16" maxlength="70">
+        <input type="submit" value="szukaj"><br><br>
         
     </form>
-    
-    
     
 </body>
 </html>
