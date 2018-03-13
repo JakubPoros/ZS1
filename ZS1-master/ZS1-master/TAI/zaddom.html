@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Systemy liczbowe</title>
+</head>
+<body>
+<h2>Systemy liczbowe</h2>
+    <div id="wynik"></div>
+    <script>
+
+        var elWynik = document.getElementById('wynik');
+        
+        var dziesietna = 45;
+        var oktalna = 0o45;
+
+/*Napisz program zmieniający system oktalny na decymalny*/ 
+        
+        var osemkowa = prompt('Podaj liczbę w systemie ósemkowym');
+        osemkowa1 = '0o' + osemkowa;
+        osemkowa1 = Number(osemkowa1);
+        console.log(typeof(osemkowa1));
+        elWynik.innerHTML = '(' + osemkowa + ')<sub>8</sub> = (' + osemkowa1 + ')<sub>10</sub>';
+        elWynik.style.color = 'blue';
+       
+    </script>
+</body>
+</html>
