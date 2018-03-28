@@ -23,7 +23,7 @@ inner.innerHTML = '<a href="http://wp.pl"><h1>inner</h1>';
 content.textContent = '<a href="http://wp.pl"><h1>content</h1></a>';*/
 
 
-/* użytkownik podaje z klawiatury 2 wartości. 
+/* użytkownik podaje z klawiatury 2 wartości.
 długość podstawy oraz wysokość trójkąta. wyświetl wynik w div w formacie "pole trójkąta wynosi: ... cm2".
 wynik ma być w kolorze białym na tle czarnym.
 ogranicz blok wyświetlający do szerokości 200 px.

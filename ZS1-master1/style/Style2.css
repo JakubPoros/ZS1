@@ -1,7 +1,9 @@
 body{
+background-color: rgba(9, 237, 167, 0.4);
 height: 800px ;
 width: 1000px;
-    background-color: white;
+background-color: mediumpurple;
+
 }
 
 #baner {
